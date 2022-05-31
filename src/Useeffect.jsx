@@ -5,7 +5,7 @@ function Effect() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    document.title = "you clicked ${count} times";
+    document.title = "you clicked {count} times";
   });
   return (
     <>
